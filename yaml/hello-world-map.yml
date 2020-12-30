@@ -1,0 +1,13 @@
+---
+apiVersion: getambassador.io/v2
+kind: Mapping
+metadata:
+  name: hello
+  namespace: demo
+spec:
+  prefix: /hello/
+  host: aes-demo.mturner.k736.net
+  service: hello.demo:80
+  docs:
+    path: /.ambassador-internal/openapi-docs
+---
