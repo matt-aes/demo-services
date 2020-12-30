@@ -12,5 +12,5 @@ spec:
   host: aes-demo.mturner.k736.net
   service: hello.demo:80
   docs:
-    path: /.ambassador-internal/openapi-docs
+    url: https://api.swaggerhub.com/apis/matt-aes/appservice/1.0.0/swagger.json
 ---
