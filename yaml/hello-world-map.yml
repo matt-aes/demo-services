@@ -4,6 +4,9 @@ kind: Mapping
 metadata:
   name: hello
   namespace: demo
+  labels:
+    public-api: "false"    ## labels for matching only some Mappings
+    documented: "false"    ## (note that "true" must be quoted)
 spec:
   prefix: /hello/
   host: aes-demo.mturner.k736.net
