@@ -10,7 +10,7 @@ metadata:
 spec:
   prefix: /backend/
   host: aes-demo.mturner.k736.net
-  service: quote.demo
+  service: quote.demo:80
   docs:
     url: https://api.swaggerhub.com/apis/matt-aes/appservice/1.0.0/swagger.json
 ---
