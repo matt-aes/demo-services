@@ -3,14 +3,14 @@ apiVersion: getambassador.io/v2
 kind: Mapping
 metadata:
   name: quote-backend
-  namespace: demo
+  namespace: test
   labels:
     public-api: "false"    ## labels for matching only some Mappings
     documented: "false"    ## (note that "true" must be quoted)
 spec:
   prefix: /backend/
-  host: aes-demo.mturner.k736.net
-  service: quote-backend.demo:80
+  host: aes-demo.com
+  service: quote-backend.test:80
   docs:
     url: https://api.swaggerhub.com/apis/matt-aes/appservice/1.0.0/swagger.json
 ---
