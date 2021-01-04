@@ -12,5 +12,5 @@ spec:
   host: aes-demo.com
   service: hello.test:80
   docs:
-    path: /.ambassador-internal/openapi-docs
+    url: https://api.swaggerhub.com/apis/matt-aes/hello-world/1.0.0/swagger.json
 ---
