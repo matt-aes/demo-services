@@ -9,7 +9,7 @@ metadata:
     documented: "false"    ## (note that "true" must be quoted)
 spec:
   prefix: /backend/
-  host: aes-demo.com
+  #host: aes-demo.com
   service: quote-backend.test:80
   docs:
     path: /.ambassador-internal/openapi-docs 
