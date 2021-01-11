@@ -9,7 +9,7 @@ metadata:
     documented: "false"    ## (note that "true" must be quoted)
 spec:
   prefix: /hello/
-  host: aes-demo.com
+  #host: aes-demo.com
   service: hello.test:80
   docs:
     url: https://api.swaggerhub.com/apis/matt-aes/hello-world/1.0.0/swagger.json
